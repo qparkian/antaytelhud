@@ -1,0 +1,107 @@
+local module = {}
+
+-- Define allowed roles for each action
+module.Permissions = {
+	PlayerBan = {"Developer"},
+	TempBan = {"Developer"},
+	Kick = {"Developer"},
+	Unban = {"Developer"},
+	Warn = {"Developer"},
+	ServerRespawnAfterStomp = {"Developer"},
+	ServerMobileLock = {"Developer"},
+	ServerShutdown = {"Developer"},
+	BringPlayer = {"Developer"},
+	PlayerRespawn = {"Developer"},
+	BringAll = {"Developer"},
+	PlayerChat = {"Developer"},
+	PlayerBackroom = {"Developer"},
+	GenerateCode = {"Developer"},
+	HideEmoji = {"Developer"},
+	
+	
+	--- random perms
+	
+	GlobalAnnouncement = {"Developer"},
+	ServerAnnouncement = {"Developer"},
+	PlayerSuperPowers = {"Developer"},
+	PlayerJumpScare = {"Developer"},
+	BulletColor = {"Developer"},
+	BloodEffect = {"Developer"},
+	BulletProof = {"Developer"},
+	RemoveAllShazam = {"Developer"},
+	GiveAllShazam = {"Developer"},
+	JumpScare = {"Developer"},
+	GlobalBR = {"Developer"},
+	BattleRoyale = {"Developer"},
+	FakeCash = {"Developer"},
+	Backroom = {"Developer"},
+	PlayerCommand = {"Developer"},
+	ChangeCanRPG = {"Developer"},
+	Height = {"Developer"},
+	Cash = {"Developer"},
+	Credit = {"Developer"},
+	SpawnJeepneyPlayer = {"Developer"},
+	BanInfo = {"Developer"},
+
+	
+	
+}
+
+module.Permissions2 = {
+	BringAll = {"Developer"},
+	RemoveAllShazam = {"Developer"},
+	GiveAllShazam = {"Developer"},
+	
+	
+	PlayerCommand = {"Developer"},
+	PlayerCommand2 = {"Developer"},
+	
+}
+
+
+WebhookMain = "https://webhook.lewisakura.moe/api/webhooks/1323693137121775767/H52P3BOv4qUNPBBPMp9zGvHmuh6XGVKbXv8FsnpPWU1yLN3tkB7jG5v0kwgjKyYazIov"
+WebhookMod = "https://webhook.lewisakura.moe/api/webhooks/1323930509759483964/Q6c3ELjQVbKT97GQnG9AayPi6EdcGrvfOD_2K2R080aS3JDZeK_zoJZCnVLOzl3IByhl"
+
+module.Webhooks = {
+	PlayerBan = WebhookMod,
+	TempBan = WebhookMod,
+	Kick = WebhookMod,
+	Unban = WebhookMod,
+	Warn = WebhookMod,
+	ServerRespawnAfterStomp = WebhookMod,
+	ServerMobileLock = WebhookMod,
+	ServerShutdown = WebhookMod,
+	BringPlayer = WebhookMod,
+	PlayerRespawn = WebhookMod,
+	BringAll = WebhookMain,
+	PlayerChat = WebhookMain,
+	PlayerBackroom = WebhookMain,
+	GenerateCode = WebhookMod,
+	HideEmoji = WebhookMain,
+
+	--- random perms
+
+    ServerAnnouncement = WebhookMain,
+	PlayerSuperPowers = WebhookMain,
+	PlayerJumpScare = WebhookMain,
+	BulletColor = WebhookMain,
+	BloodEffect = WebhookMain,
+	BulletProof = WebhookMain,
+	RemoveAllShazam = WebhookMain,
+	GiveAllShazam = WebhookMain,
+	JumpScare = WebhookMain,
+	GlobalBR = WebhookMain,
+	BattleRoyale = WebhookMain,
+	FakeCash = WebhookMain,
+	Backroom = WebhookMain,
+	PlayerCommand = WebhookMain,
+	ChangeCanRPG = WebhookMain,
+	Height = WebhookMain,
+	Cash = WebhookMain,
+	Credit = WebhookMain,
+	SpawnJeepneyPlayer = WebhookMain,
+	BanInfo = WebhookMain,
+
+}
+
+return module
